@@ -26,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E219EDAC1E3F7F3200A3D02C /* SHUTTLE.OBJ */ = {isa = PBXFileReference; lastKnownFileType = text; name = SHUTTLE.OBJ; path = ../OBJLoader/OBJModels/SHUTTLE.OBJ; sourceTree = "<group>"; };
+		E219EDAD1E3F7FA200A3D02C /* Eight.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = Eight.obj; path = "../../../Downloads/OpenGL-c9d1fbf762367503df6555e935af12a96ff82573/TuXing/Eight.obj"; sourceTree = "<group>"; };
 		E2B4ED4E1E39915D001696B8 /* mac_obj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mac_obj; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B4ED511E39915D001696B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E2B4ED591E3991C2001696B8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -34,6 +36,7 @@
 		E2B4ED611E3A0974001696B8 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model.cpp; sourceTree = "<group>"; };
 		E2B4ED621E3A0974001696B8 /* Model.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Model.hpp; sourceTree = "<group>"; };
 		E2B4ED641E3A2A42001696B8 /* cube.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
+		E2EE721F1E3E260900D99447 /* cube_normal.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = cube_normal.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +58,10 @@
 				E2B4ED501E39915D001696B8 /* mac_obj */,
 				E2B4ED4F1E39915D001696B8 /* Products */,
 				E2B4ED641E3A2A42001696B8 /* cube.obj */,
+				E2EE721F1E3E260900D99447 /* cube_normal.obj */,
 				E2B4ED5E1E399802001696B8 /* s.obj */,
+				E219EDAD1E3F7FA200A3D02C /* Eight.obj */,
+				E219EDAC1E3F7F3200A3D02C /* SHUTTLE.OBJ */,
 				E2B4ED581E3991C2001696B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -272,6 +278,7 @@
 				E2B4ED571E39915D001696B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

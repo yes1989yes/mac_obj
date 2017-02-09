@@ -300,12 +300,12 @@ void display(){//display
     glReadPixels(0, 0, global_pixel_width,global_pixel_hight, GL_RED, GL_UNSIGNED_BYTE, image_pixel_value);
     printf("image pixel data read !\n");
     
-    ofstream out1("/Users/dp/Documents/all_codes_dp/mac_obj2/mac_obj2/img002.txt",ios::out|ios::in|ios::trunc);
+    ofstream out1("/Users/dp/Documents/all_codes_dp/mac_obj2/mac_obj2/img004.txt",ios::out|ios::in|ios::trunc);
     //out1.open("/Users/dp/Documents/all_codes_dp/mac_obj2/mac_obj2/img001.txt",ios::out|ios::in|ios::trunc);
     if (out1.is_open())
     {//if
-        out1<<"angle in x, y, z is "<<global_angle_x<<","<<global_angle_y<<","<<global_angle_z<<"\n";
-        out1<<"image size is "<<global_pixel_width<<"\n";
+        out1<<"angle_in_x_y_z_is "<<global_angle_x<<" "<<global_angle_y<<" "<<global_angle_z<<"\n";
+        out1<<"image_size_is "<<global_pixel_width<<"\n";
         
         
         for(int pix_n=0;pix_n<global_pixel_width*global_pixel_hight;pix_n++){
